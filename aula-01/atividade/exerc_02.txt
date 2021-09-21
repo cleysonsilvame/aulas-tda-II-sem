@@ -1,0 +1,10 @@
+Algoritmo consulta_medica
+
+1 - Escreva "Programa de Agendar Consulta"
+2 - Variável nome, rg
+3 - Escreva "Digite seu nome"
+4 - Guarde em nome
+5 - Escreve "Digite o seu RG"
+6 - Guarde em rg
+7 - Agendar consulta com o nome e email
+8 - Escreva nome + ", sua consulta foi agendada com sucesso!"

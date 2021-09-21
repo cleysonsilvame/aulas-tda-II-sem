@@ -1,0 +1,10 @@
+Algoritmo enviar_email
+
+1 - Escreva "Programa de Enviar Email"
+2 - Variável nome, email
+3 - Escreva "Digite seu nome"
+4 - Guarde em nome
+5 - Escreve "Digite o seu email"
+6 - Guarde em email
+7 - Envie o email com o nome e email
+8 - Escreva "E-mail enviado com sucesso para o " + nome
