@@ -1,0 +1,13 @@
+algoritmo triplo_valor
+
+inicio
+	real valor, result
+	
+	escreva ("Digite um valor real: ")
+	leia (valor)
+
+	result = valor * 3
+
+	escreva ("O triplo do valor é: " + result)
+	
+fim

@@ -1,0 +1,16 @@
+algoritmo agricultor
+
+inicio
+	real a, b, hypot
+
+	escreva ("Digite o valor de 'a': ")
+	leia (a)
+
+	escreva ("Digite o valor de 'b': ")
+	leia (b)
+	
+	hypot = raiz((a ** 2) + (b ** 2))
+
+	escreva ("Ele precisa comprar " + hypot + " metros de cerca para completar o triângulo")
+
+fim

@@ -1,0 +1,19 @@
+algoritmo funcionarios
+
+inicio
+    inteiro qtd_dependentes
+    literal nome, cargo
+
+    escreva ("Digite o seu nome: ")
+    leia (nome)
+
+    escreva ("Digite o seu cargo: ")
+    leia (cargo)
+
+    escreva ("Digite o número de dependentes: ")
+    leia (qtd_dependentes) 
+
+    escreva ("O nome é: " + nome)
+    escreva ("O cargo é: " + cargo)
+    escreva ("O número de dependentes é: " + qtd_dependentes)
+fim

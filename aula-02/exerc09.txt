@@ -1,0 +1,15 @@
+algoritmo resto_divisao
+
+inicio
+	inteiro n1, n2, resultado
+
+	escreva ("Digite o valor do primeiro número: ")
+	leia (n1)
+
+	escreva ("Digite o valor do segundo número: ")
+	leia (n2)
+	
+	resultado = n1 % n2
+
+	escreva ("O resto da divisão de 'n1' por 'n2' é: " + resultado)
+fim

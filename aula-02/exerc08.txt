@@ -1,0 +1,15 @@
+algoritmo impressao_por_minuto
+
+inicio
+	inteiro hora, minuto, resposta
+
+	escreva ("Digite a hora: ")
+	leia (hora)
+
+	escreva ("Digite o minuto: ")
+	leia (minuto) 
+
+	resposta = (hora * 60) + minuto
+
+	escreva ("A quantidade de minutos que passaram foi: " + resposta)
+fim

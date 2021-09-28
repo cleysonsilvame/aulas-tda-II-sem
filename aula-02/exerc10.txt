@@ -1,0 +1,14 @@
+algoritmo coma_bem
+
+inicio
+	real valor_jantar, gorjeta, total
+
+	escreva ("Digite o valor do seu jantar: ")
+	leia (valor_jantar)
+	
+	gorjeta = valor_jantar * 0.10
+	total = valor_jantar + gorjeta
+
+	escreva ("O valor total a ser pago é: " + total)
+	escreva ("Apenas o valor da gorjeta é: " + gorjeta)
+fim

@@ -1,0 +1,16 @@
+algoritmo volume_cilindro
+
+inicio
+	real: radio, altura, volume, PI
+
+	escreva ("Digite o raio do cilindro: ")
+	leia (radio)
+
+	escreva ("Digite a altura do cilindro: ")
+	leia (altura) 
+
+	PI = 3.14
+	volume = altura * PI * (raio * raio)
+
+	escreva ("O volume do seu cilindro é: " + volume)
+fim

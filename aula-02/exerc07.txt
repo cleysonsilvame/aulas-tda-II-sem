@@ -1,0 +1,16 @@
+algoritmo cotacao_dolar
+
+inicio
+	real cotacao_dolar, valor_dolar, valor_real
+
+	escreva ("Digite o valor atual da cotação do dólar: ")
+	leia (cotacao_dolar)
+
+	escreva ("Digite o valor em dólar para ser convertido: ")
+	leia (valor_dolar)
+	
+	valor_real = valor_dolar * cotacao_dolar
+
+	escreva ("O valor em reais é: " + valor_real)
+
+fim

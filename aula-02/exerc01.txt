@@ -1,0 +1,24 @@
+algoritmo medicamentos
+
+inicio
+    literal medicamento1, medicamento2
+    real valor1, valor2
+
+    escreva ("Digite o nome do 1º medicamento: ")
+    leia (medicamento1)
+
+    escreva ("Digite o seu valor: ")
+    leia (valor1)
+
+    escreva ("Digite o nome do 2º medicamento: ")
+    leia (medicamento2)
+
+    escreva ("Digite o seu valor: ")
+    leia (valor2)
+
+    escreva ("O nome do primeiro medicamento é: " + medicamento1)
+    escreva ("E o valor é: " + valor1)
+
+    escreva ("O nome do segundo medicamento é: " + medicamento2)
+    escreva ("E o valor é: " + valor2)
+fim

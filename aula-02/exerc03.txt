@@ -1,0 +1,22 @@
+algoritmo tres_retangulos
+
+inicio
+	inteiro A1, A2, AT, a, b, d
+
+	escreva ("Digite o valor de 'a': ")
+	leia (a)
+
+	escreva ("Digite o valor de 'b': ")
+	leia (b) 
+
+	escreva ("Digite o valor de 'd': ")
+	leia (d) 
+
+	A1 = a * b
+	A2 = d * b
+	AT = A1 + A2
+
+	escreva ("A área do retângulo A1 é: " + A1)
+	escreva ("A área do retângulo A2 é: " + A2)
+	escreva ("A área do retângulo AT é: " + AT)
+fim
