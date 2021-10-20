@@ -8,7 +8,7 @@ public class Exerc05 {
     scanner.useLocale(Locale.US); // para usar o ponto na entrada do float ao invés de virgula.
 
     float total = 0;
-    float maiorValor = -1;
+    Float maiorValor = null;
     int qtdValores = 0;
 
     while (true) {
@@ -16,7 +16,8 @@ public class Exerc05 {
       float valorAtual = scanner.nextFloat();
       total += valorAtual;
       qtdValores++;
-      if (valorAtual > maiorValor) {
+
+      if (maiorValor == null || valorAtual > maiorValor) {
         maiorValor = valorAtual;
       }
 

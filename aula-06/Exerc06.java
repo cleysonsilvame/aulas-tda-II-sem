@@ -9,7 +9,7 @@ public class Exerc06 {
 
     int qtdPositivos = 0;
     int qtdNegativos = 0;
-    float menorValor = 0;
+    Float menorValor = null;
 
     while (true) {
       System.out.println("\nDigite um valor: ");
@@ -21,7 +21,7 @@ public class Exerc06 {
         qtdNegativos++;
       }
 
-      if (valorAtual < menorValor) {
+      if (menorValor == null || valorAtual < menorValor) {
         menorValor = valorAtual;
       }
 
